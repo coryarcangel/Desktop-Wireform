@@ -1,7 +1,6 @@
 #Cory Arcangel 2007-2010
 #
-#Generate a 3 wireform shape by picking random numbers in the XY and increacing numbers, 0-10 point in the Z plane.
-#
+#Generate a 3d wireform shape by picking random numbers in the XY dimensions and increacing the Z dimension. 
 #
 
 use Data::Dumper;
