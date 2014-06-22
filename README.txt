@@ -38,7 +38,7 @@ ooO--(_)--Ooo--8---(_)--Ooo-ooO--(_)--Ooo-ooO--(_)--Ooo-ooO-(_)---Ooo----
   //\\                                                                        //\\
   "" ""                                                                       "" ""
 
-Desktop Wireform~\footnotemark[1]~
+Desktop Wireform
 
 Cory Arcangel, 2010
 
@@ -46,9 +46,9 @@ http://www.coryarcangel.com
 
 Requirements: Perl
 
-A perl~\footnotemark[2]~ file which generates .dae~\footnotemark[3]~ data for a line consisting of random XYZ points in 
-3d space where the Z dimension is always increasing~\footnotemark[4]~.
+A perl file which generates .dae data for a line consisting of random XYZ points in 
+3d space where the Z dimension is always increasing.
 
-"If my kid couldn't draw I'd make sure that my kitchen magnets didn't work" - Mitch Hedberg~\footnotemark[5]~ ~\footnotemark[6]~
+"If my kid couldn't draw I'd make sure that my kitchen magnets didn't work" - Mitch Hedberg
 
 Sample output: ./perl desktop-wireform.pl > hello-world.dae
