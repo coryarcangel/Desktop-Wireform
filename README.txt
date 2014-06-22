@@ -1,15 +1,54 @@
-;********************************************************
-;
-; Desktop Wireform
-;
-; Cory Arcangel - 2010
-; 
-; http://www.coryarcangel.com/
-; 
-; "If my kid couldn't draw I'd make sure that my kitchen magnets didn't work"
-; - Mitch Hedberg
-;
-;********************************************************
+  _    _      _ _        __          __        _     _ 
+ | |  | |    | | |       \ \        / /       | |   | |
+ | |__| | ___| | | ___    \ \  /\  / /__  _ __| | __| |
+ |  __  |/ _ \ | |/ _ \    \ \/  \/ / _ \| '__| |/ _` |
+ | |  | |  __/ | | (_) |    \  /\  / (_) | |  | | (_| |
+ |_|  |_|\___|_|_|\___/      \/  \/ \___/|_|  |_|\__,_|
+                                                       
+.------..------..------..------..------.     .------..------..------..------..------.
+|H.--. ||E.--. ||L.--. ||L.--. ||O.--. |.-.  |W.--. ||O.--. ||R.--. ||L.--. ||D.--. |
+| :/\: || (\/) || :/\: || :/\: || :/\: ((5)) | :/\: || :/\: || :(): || :/\: || :/\: |
+| (__) || :\/: || (__) || (__) || :\/: |'-.-.| :\/: || :\/: || ()() || (__) || (__) |
+| '--'H|| '--'E|| '--'L|| '--'L|| '--'O| ((1)) '--'W|| '--'O|| '--'R|| '--'L|| '--'D|
+`------'`------'`------'`------'`------'  '-'`------'`------'`------'`------'`------'
 
-A perl file which generates .dae data for a small desktop wireform 
-sculpture consisting of random XYZ points in 3d space with a small base... 
+
+                   |"|         _     _       _     _     #   ___      
+     ***          _|_|_      o' \,=./ `o   o' \,=./ `o   #  <_*_>     
+    (o o)         (o o)         (o o)         (o o)      #  (o o)     
+ooO--(_)--Ooo-ooO--(_)--Ooo-ooO--(_)--Ooo-ooO--(_)--Ooo--8---(_)--Ooo-
+
+               #   ___           !!!         _     _            ...      
+     )|(       #  <_*_>       `  _ _  '    o' \,=./ `o     o,*,(o o)     
+    (o o)      #  (o o)      -  (OXO)  -      (o o)       8(o o)(_)Ooo   
+ooO--(_)--Ooo--8---(_)--Ooo-ooO--(_)--Ooo-ooO--(_)--Ooo-ooO-(_)---Ooo----
+
+    )                                                 
+ ( /(       (   (        (  (               (   (     
+ )\())   (  )\  )\       )\))(   '     (    )\  )\ )  
+((_)\   ))\((_)((_) (   ((_)()\ )  (   )(  ((_)(()/(  
+ _((_) /((_)_   _   )\  _(())\_)() )\ (()\  _   ((_)) 
+| || |(_)) | | | | ((_) \ \((_)/ /((_) ((_)| |  _| |  
+| __ |/ -_)| | | |/ _ \  \ \/\/ // _ \| '_|| |/ _` |  
+|_||_|\___||_| |_|\___/   \_/\_/ \___/|_|  |_|\__,_|  
+
+
+(____________________________________________________________________________()6 `-,
+(   ________________________________________________________________________   /''"`
+  //\\                                                                        //\\
+  "" ""                                                                       "" ""
+
+Desktop Wireform~\footnotemark[1]~
+
+Cory Arcangel, 2010
+
+http://www.coryarcangel.com
+
+Requirements: Perl
+
+A perl~\footnotemark[2]~ file which generates .dae~\footnotemark[3]~ data for a line consisting of random XYZ points in 
+3d space where the Z dimension is always increasing~\footnotemark[4]~.
+
+"If my kid couldn't draw I'd make sure that my kitchen magnets didn't work" - Mitch Hedberg~\footnotemark[5]~ ~\footnotemark[6]~
+
+Sample output: ./perl desktop-wireform.pl > hello-world.dae
